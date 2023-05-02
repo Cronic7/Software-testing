@@ -86,19 +86,63 @@ In this case, we might perform a top-down integration test, starting with the hi
 
 By performing integration testing in this way, we can ensure that all components work together as intended and that the website functions correctly. If any issues are discovered, we can fix them before the website is deployed to users.
 
+## 🖥️ What is System Testing?
 
-## 🔗 Example of Integration Testing
+System testing is a type of software testing that evaluates the entire system or software application as a whole. It tests the software system for compliance with functional and non-functional requirements and ensures that it meets the needs of the stakeholders.
 
-Let's consider an example where we are building an e-commerce website. The website has several components, including a front-end interface, a back-end server, a database, and a payment gateway. To ensure that these components work together as intended, we can perform integration testing.
+The primary objective of system testing is to verify that the system works as intended and is reliable and stable in the environment for which it was designed. This type of testing is typically performed on a fully integrated system, which means that all the components of the software application are tested together in a complete and operational environment.
 
-In this case, we might perform a top-down integration test, starting with the highest level component (the front-end interface) and working our way down to the lower level components. For example, we might perform the following tests:
+System testing is usually performed after integration testing and before user acceptance testing. It involves both functional and non-functional testing to verify the software's compliance with the specifications and requirements.
 
-- **Test the front-end interface** : We might test that the user interface displays correctly, and that users can browse products, add items to their cart, and initiate the checkout process.
+👉 For example, in system testing of an e-commerce application, functional testing would ensure that customers can place orders, payment gateways work properly, and inventory management works as intended. Non-functional testing would ensure that the application can handle high traffic, is secure from external threats, and provides a satisfactory user experience.
 
-- **Test the server-side logic** : We might test that the server receives requests from the front-end interface, processes them correctly, and returns the appropriate response.
+By performing system testing, software developers and testers can detect and address defects, issues, and errors in the software application before it is released to the end-users.
 
-- **Test the database** : We might test that data is correctly stored and retrieved from the database, such as product information, user accounts, and order history.
+ ## 🎉 What is Acceptance Testing?  
 
-- **Test the payment gateway** : We might test that the payment gateway is correctly integrated with the website, and that users can make payments securely.
+Acceptance testing is a type of software testing that is performed to determine if the software system meets the acceptance criteria of the stakeholders. It is usually the final phase of the testing process and is designed to ensure that the software application is ready for deployment to the end-users. 🚀
 
-By performing integration testing in this way, we can ensure that all components work together as intended and that the website functions correctly. If any issues are discovered, we can fix them before the website is deployed to users.
+The acceptance criteria typically include functional, non-functional, and performance requirements specified by the stakeholders, such as the customer or the product owner. Acceptance testing verifies that the software application meets these requirements and performs as expected in the production environment. 💻
+
+👉For example, suppose a software development team has built a new e-commerce website. In that case, acceptance testing might involve end-users placing orders, testing the payment gateway, and verifying that their personal information is stored securely. The team can then make any necessary changes to the website before releasing it to the public. 🛍️
+
+The acceptance testing process is usually conducted by the end-users, product owners, or business analysts, who validate the software's functionality, usability, and reliability. It can be performed manually or using automated testing tools. 🔍
+
+There are different types of acceptance testing, including user acceptance testing (UAT), operational acceptance testing (OAT), and contractual acceptance testing (CAT). User acceptance testing is usually the most common type, where end-users test the software in a simulated environment to ensure that it meets their needs and expectations. 🙌
+
+By performing acceptance testing, software developers and testers can ensure that the software application meets the stakeholders' requirements and is ready for deployment to the end-users. 🎉
+
+## 🔄 What is Regression Testing? 
+
+Regression testing is a type of software testing that is performed to ensure that changes or modifications made to the software application have not adversely affected its existing functionality. It involves retesting the previously tested functionality of the software to detect any new defects or issues that may have been introduced as a result of the changes made. 
+
+Regression testing is usually performed when new code is added, bugs are fixed, or changes are made to the software configuration. It helps to ensure that the software application is stable, reliable, and performs as expected after modifications have been made. 
+
+👉For example, suppose a software development team has released a new version of their software application. In that case, regression testing might involve testing the existing functionality of the application to ensure that it still works correctly with the new version. This could include retesting features such as login, search, and checkout processes to ensure that they have not been impacted by the changes made. 
+
+Regression testing can be performed manually or using automated testing tools. Automated regression testing is usually faster and more efficient, as it can help to identify defects more quickly and accurately. However, it may not be suitable for all types of software applications or testing scenarios. 
+
+By performing regression testing, software developers and testers can ensure that the software application continues to meet the required functionality, performance, and quality standards, even after changes have been made. This helps to minimize the risk of defects or issues arising in the production environment and provides greater confidence in the software's reliability and stability. 💯
+
+## 📈 What is Performance Testing? 
+
+Performance testing is a type of software testing that evaluates the performance and scalability of a software application under various load conditions. It involves measuring how the application responds and performs under different workloads and stress levels. The goal of performance testing is to identify and eliminate performance bottlenecks before the application is deployed to a production environment. 
+
+Performance testing is typically used to measure various performance metrics, such as response time, throughput, and resource utilization. It helps to ensure that the application meets performance requirements and can handle the expected number of users, transactions, and data volumes. 
+
+Performance testing can be classified into various types, such as load testing, stress testing, endurance testing, and spike testing. Load testing involves testing the application under different load conditions to determine its maximum capacity. Stress testing involves testing the application beyond its expected maximum capacity to evaluate its stability and robustness. Endurance testing involves testing the application under a sustained workload to determine its performance over time. Spike testing involves testing the application under sudden and extreme load conditions to evaluate its response time and stability. 
+
+👉For example, suppose an e-commerce website is being developed that is expected to handle a large number of users and transactions. In that case, performance testing might involve simulating various load conditions and measuring the application's response time, throughput, and resource utilization. This can help to identify any performance bottlenecks and ensure that the application can handle the expected workload. 
+
+Performance testing can be performed manually or using automated testing tools. Automated performance testing is usually faster and more efficient, as it can simulate various load conditions and measure performance metrics more accurately. However, it requires specialized skills and resources to set up and maintain the testing environment. 
+
+By performing performance testing, software developers and testers can ensure that the software application meets performance requirements and can handle the expected workload. This helps to minimize the risk of performance issues arising in the production environment and provides greater confidence in the software's reliability and scalability. 💪
+
+## 🌐 Compatibility Testing 
+
+Compatibility testing verifies whether a software application is compatible with various hardware, operating systems, web browsers, databases, and network environments. It ensures that the software works as intended and provides the desired user experience across all the supported configurations.
+
+👉Example: A web application that is designed to run on multiple web browsers such as Google Chrome, Mozilla Firefox, and Safari should be tested to ensure that it works seamlessly on all these browsers. Similarly, a mobile application should be tested to ensure that it runs on different devices and operating systems without any issues.
+
+
+
