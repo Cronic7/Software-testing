@@ -144,5 +144,48 @@ Compatibility testing verifies whether a software application is compatible with
 
 👉Example: A web application that is designed to run on multiple web browsers such as Google Chrome, Mozilla Firefox, and Safari should be tested to ensure that it works seamlessly on all these browsers. Similarly, a mobile application should be tested to ensure that it runs on different devices and operating systems without any issues.
 
+## 🛡️ Security Testing
+
+Security testing is a type of software testing that is performed to identify vulnerabilities and weaknesses in a software application's security features. The purpose of security testing is to ensure that the application is secure and can protect user data and resources from unauthorized access, modification, or destruction.
+
+Security testing involves a range of tests, including penetration testing, vulnerability scanning, security audits, and risk assessments. It aims to identify potential security risks and threats to the application and its data.
+
+👉Example: A banking application that stores sensitive customer information and facilitates financial transactions should undergo rigorous security testing to ensure that it is secure from external threats such as hacking, phishing, and other cyber attacks. Security testing may include penetration testing to identify vulnerabilities in the system and ensure that they are patched before the application is deployed.
+
+### Types of Security Testing 🔒
+
+1. 🔍 **Vulnerability Assessment:** A type of security testing that is used to identify security vulnerabilities and weaknesses in the application.
+
+2. 🕵️‍♀️ **Penetration Testing:** Also known as "pen testing," it involves simulating an attack on the application to identify vulnerabilities that can be exploited.
+
+3. 📉 **Risk Assessment:** A process that involves identifying and assessing the risks associated with the application's security.
+
+4. 🔍 **Security Auditing:** A review of the application's security features and controls to identify potential security issues.
+
+5. 🕵️‍♀️ **Ethical Hacking:** Similar to penetration testing, ethical hacking involves attempting to exploit vulnerabilities in the application to identify weaknesses.
+
+6. 🚨 **Threat Modeling:** A process that involves identifying potential threats to the application and assessing the risks associated with them.
+
+7. 💻 **Security Code Review:** A process of reviewing the application's source code to identify potential security issues and vulnerabilities.
+
+8. 📝 **Compliance Testing:** A type of security testing that ensures that the application complies with regulatory and legal requirements.
+
+These are just some of the types of security testing that are commonly used to ensure the security of software applications.
+
+## 🔍 Exploratory Testing?
+
+Exploratory testing is a type of software testing where the tester actively learns about the software while testing it. The tester designs and executes test cases based on their current understanding of the system, and uses their knowledge and experience to identify potential issues and areas of the system that require more thorough testing. Exploratory testing is often used in agile development environments where there may be a greater emphasis on rapid feedback and continuous improvement.
+
+## 🌀 chaos testing
+
+Chaos testing is a type of software testing that involves deliberately introducing failures or faults into a system to see how it responds under stress or unexpected conditions. The purpose of chaos testing is to identify potential weaknesses or vulnerabilities in a system before they become actual problems that impact users. 
+
+🚀 **Example of Chaos Testing**
+
+Let's say you're a tester working on a ride-sharing app. To test the app's resilience to unexpected conditions, you introduce network latency to simulate a poor network connection. You then request a ride and monitor how the app responds. If the app continues to work as expected, even under adverse conditions, it can be considered resilient and ready for production use.
+
+
+ 
+
 
 
